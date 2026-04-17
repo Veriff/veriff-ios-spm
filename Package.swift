@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Veriff",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(name: "Veriff",
-                      url: "https://cdn.veriff.me/ios/com/veriff/veriffsdk/9.1.1/veriffsdk-9.1.1.zip",
-                      checksum: "2601efb637ad5f9536d38c31447d91b3796911df4bd5962c394875bca249449b"),
+                      url: "https://cdn.veriff.me/ios/com/veriff/veriffsdk/10.1.0/veriffsdk-10.1.0.zip",
+                      checksum: "f398996090b313d866e0cfe8ca4dedd4f251ddd4accbc10f3b01a39846c6986f"),
     ]
 )
